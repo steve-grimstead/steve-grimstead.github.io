@@ -6,7 +6,7 @@ cover-img: /assets/img/nat-hwcMLF374mY-unsplash.jpg
 thumbnail-img: /assets/img/nat-hwcMLF374mY-unsplash.jpg
 share-img: /assets/img/nat-hwcMLF374mY-unsplash.jpg
 tags: [microsoft server, test]
-
+comments: true
 ---
 ###### Photo by <a href="https://unsplash.com/@_ivann?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ivan N</a> on <a href="https://unsplash.com/photos/a-bunch-of-wires-and-wires-in-a-room-AfStyhXC5kM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
