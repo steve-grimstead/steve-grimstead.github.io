@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: IT Admins aren't born, they are forged in fire.
 ---
 
 # Steve Grimstead
