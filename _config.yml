@@ -128,7 +128,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "microsoft server,linux,ubuntu,networking,alcatel,cisco,meraki,sophos,security,it,programming,c#,powershell,node.js,css,tailwind css,javascript,react,vite,how-to,it training,information technology,servers,homelab"
+keywords: "microsoft server,linux,ubuntu,networking,alcatel,cisco,meraki,sophos,security,it,programming,c#,powershell,node.js,css,tailwind css,javascript,react,vite,how-to,it training,information technology,servers,homelab,active directory.sql,mongo db,aws,amazon web services,azure,google cloud"
 
 ######################################
 # --- Colours / background image --- #
