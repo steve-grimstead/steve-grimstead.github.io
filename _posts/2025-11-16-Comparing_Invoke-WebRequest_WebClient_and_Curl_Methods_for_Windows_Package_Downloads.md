@@ -22,7 +22,7 @@ Downloading files, such as winget cli from Github, is a common task for IT profe
 
 ## Prerequisites
 * Windows 10 or later (with PowerShell and curl available by default)
-* URL to the file you want to download such as https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+* URL to the file you want to download such as [https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle](https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
 * Administrative privileges (recommended for installation tasks)
 
 ## Method 1: Using Invoke-WebRequest in PowerShell
