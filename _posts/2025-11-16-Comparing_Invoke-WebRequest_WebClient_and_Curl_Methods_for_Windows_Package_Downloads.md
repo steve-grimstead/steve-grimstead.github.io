@@ -57,7 +57,7 @@ In Command Prompt, curl always refers to the executable and does not have confli
 
 ### PowerShell Curl vs. Command Prompt Curl
 | Feature | PowerShell (curl) | Command Prompt (curl) |
-| -- | -- | -- |
+| --- | --- | --- |
 | Command Name | curl (alias for Invoke-WebRequest), curl.exe (actual curl) | curl (actual curl) |
 | Behavior | curl is an alias for Invoke-WebRequest unless curl.exe is specified | curl refers directly to curl.exe |
 | Recommended Usage | Use curl.exe to avoid conflicts | Use curl directly |
