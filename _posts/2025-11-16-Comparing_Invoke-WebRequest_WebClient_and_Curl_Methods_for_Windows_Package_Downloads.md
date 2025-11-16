@@ -29,7 +29,7 @@ Downloading files, such as winget cli from Github, is a common task for IT profe
 PowerShell’s Invoke-WebRequest cmdlet is a powerful and straightforward way to download files.
 1.	Open PowerShell as Administrator.
 2.	Use the following command:
-3.	Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "C:\tmp\winget_cli_installer.msixbundle"
+3.	`Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "C:\tmp\winget_cli_installer.msixbundle"`
 4.	Replace the URL with the actual download link and the path with your desired location.
 This command fetches the file from the specified URL and saves it locally. Invoke-WebRequest is ideal for scripting and automation, supporting authentication, headers, and more.
 
@@ -37,24 +37,22 @@ This command fetches the file from the specified URL and saves it locally. Invok
 The WebClient class provides another way to download files in PowerShell, useful for compatibility with older scripts or when you need more granular control over the download process.
 1.	Open PowerShell.
 2.	Run the following commands:
-3.	$webClient = New-Object System.Net.WebClient
-4.	$wc.DownloadFile("https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle", "C:\tmp\winget_cli_install.msixbundle")
+3.	`$webClient = New-Object System.Net.WebClient`
+4.	`$wc.DownloadFile("https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle", "C:\tmp\winget_cli_install.msixbundle")`
 5.	Again, adjust the URL and output path as needed.
 WebClient is lightweight and works well for simple downloads, but lacks some of the advanced features of Invoke-WebRequest.
 
 ## Method 3: Using Curl in PowerShell
 Windows ships with curl as a built-in command-line tool. You can use it directly in PowerShell, though it behaves slightly differently compared to Linux or macOS environments.
 1.	Open PowerShell.
-2.	Run:
-3.	curl.exe -o "C:\tmp\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+2.	Run: `curl.exe -o "C:\tmp\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"`
 4.	Note: Use curl.exe instead of just curl to avoid confusion with the PowerShell alias for Invoke-WebRequest.
 curl.exe provides robust options for downloads, including resume support, progress bars, and more.
 
 ## Method 4: Using Curl in Command Prompt
 You can also use curl in the classic Command Prompt (cmd.exe).
 1.	Open Command Prompt.
-2.	Type:
-3.	curl -o "C:\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+2.	Type: `curl -o "C:\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"`
 In Command Prompt, curl always refers to the executable and does not have conflicting aliases, making it straightforward to use.
 
 ### PowerShell Curl vs. Command Prompt Curl
