@@ -14,11 +14,11 @@ Downloading files, such as winget cli from Github, is a common task for IT profe
 
 ## Quick Links
 * [Prerequisites](#prerequisites)
-* [Method 1: Using Invoke-WebRequest in PowerShell](#method_1_using_invoke-webrequest_in_powershell)
-* [Method 2: Using WebClient in PowerShell](#method_2_using_webclient_in_powershell)
-* [Method 3: Using Curl in PowerShell](#method_3_using_curl_in_powershell)
-* [Method 4: Using Curl in Command Prompt](#method_4_using_curl_in_command_prompt)
-* [PowerShell Curl vs. Command Prompt Curl](#powershell_curl_vs._command_prompt_curl)
+* [Method 1: Using Invoke-WebRequest in PowerShell](#method-1-using-invokewebrequest-in-powershell)
+* [Method 2: Using WebClient in PowerShell](#method-2-using-webclient-in-powershell)
+* [Method 3: Using Curl in PowerShell](#method-3-using-curl-in-powershell)
+* [Method 4: Using Curl in Command Prompt](#method-4-using-curl-in-command-prompt)
+* [PowerShell Curl vs. Command Prompt Curl](#powershell-curl-vs-command-prompt-curl)
 
 ## Prerequisites
 * Windows 10 or later (with PowerShell and curl available by default)
