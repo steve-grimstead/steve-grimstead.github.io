@@ -2,9 +2,9 @@
 layout: post
 title: Downloading files with Windows PowerShell
 subtitle: Comparing Invoke-WebRequest, WebClient, and Curl Methods for Windows Package Downloads
-cover-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
-thumbnail-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
-share-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
+cover-img: assets/img/abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustration-free-photo.jpg
+thumbnail-img: assets/img/abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustration-free-photo.jpg
+share-img: assets/img/abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustration-free-photo.jpg
 tags: [powershell, invoke-webrequest, curl, webclient]
 ---
 
