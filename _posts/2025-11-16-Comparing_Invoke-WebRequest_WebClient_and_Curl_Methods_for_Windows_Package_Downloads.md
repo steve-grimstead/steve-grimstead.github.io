@@ -56,15 +56,21 @@ You can also use curl in the classic Command Prompt (cmd.exe).
 In Command Prompt, curl always refers to the executable and does not have conflicting aliases, making it straightforward to use.
 
 ### PowerShell Curl vs. Command Prompt Curl
-| Feature | PowerShell (curl) | Command Prompt (curl) |
+Powershell curl is actually an alias for *Invoke-WebRequest* meaning you would have to change the command to what the *Invoke-WebRequest* expects. 
+
+so instead of `curl.exe -o "C:\tmp\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"`, your command would be `Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "C:\tmp\winget_cli_installer.msixbundle"`
+
+<!--| Feature | PowerShell (curl) | Command Prompt (curl) |
 | --- | --- | --- |
 | Command Name | curl (alias for Invoke-WebRequest), curl.exe (actual curl) | curl (actual curl) |
 | Behavior | curl is an alias for Invoke-WebRequest unless curl.exe is specified | curl refers directly to curl.exe |
 | Recommended Usage | Use curl.exe to avoid conflicts | Use curl directly |
-| Advanced Features | All curl features available via curl.exe | All curl features available |
+| Advanced Features | All curl features available via curl.exe | All curl features available | -->
 
 ## Conclusion
 Whether you’re scripting downloads for automation or manually fetching packages, Windows offers several flexible methods. For PowerShell users, Invoke-WebRequest and WebClient offer native options, while curl.exe brings cross-platform consistency. In Command Prompt, curl is straightforward with no alias conflicts. Always ensure you use the correct command for your environment to avoid confusion and get the most out of your download operations.
+
+While any method will download the file, *Invoke-WebRequest* feels like it takes longer to download that using *WebClient* or *CURL* to me. 
 
 ## References & Further Reading
 * [PowerShell Invoke-WebRequest Command](https://www.bing.com/ck/a?!&&p=b488221d143307f4ad9c9933d93e4fe1d88534e726f6ec44dde0467f0c2d161bJmltdHM9MTc2MzI1MTIwMA&ptn=3&ver=2&hsh=4&fclid=35726a44-6062-6dff-25d4-7ce1613e6cad&psq=powershell+invoke-webrequest&u=a1aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL3Bvd2Vyc2hlbGwvbW9kdWxlL21pY3Jvc29mdC5wb3dlcnNoZWxsLnV0aWxpdHkvaW52b2tlLXdlYnJlcXVlc3Q_dmlldz1wb3dlcnNoZWxsLTcuNQ)
