@@ -72,5 +72,5 @@ Whether you’re scripting downloads for automation or manually fetching package
 * [Curl Windows 11](https://curl.se/windows/microsoft.html)
 
 
-##### Don’t forget to bookmark and check back for updates.
-##### Community Engagement: Join the conversation on [discord](https://discord.gg/FXzZKZWkgB)
+Don’t forget to bookmark and check back for updates.
+Community Engagement: Join the conversation on [discord](https://discord.gg/FXzZKZWkgB)
