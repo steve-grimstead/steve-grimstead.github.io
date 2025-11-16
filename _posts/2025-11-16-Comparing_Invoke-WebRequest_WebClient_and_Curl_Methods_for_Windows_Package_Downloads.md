@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blog is now live!!
-subtitle: Launch Annoucement
+title: Downloading files with Windows PowerShell
+subtitle: Comparing Invoke-WebRequest, WebClient, and Curl Methods for Windows Package Downloads
 cover-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
 thumbnail-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
 share-img: assets/img/Entec-Power-of-Cloud-Computing-1.webp
