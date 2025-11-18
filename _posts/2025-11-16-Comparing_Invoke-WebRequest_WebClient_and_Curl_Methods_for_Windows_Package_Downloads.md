@@ -59,7 +59,7 @@ In Command Prompt, curl always refers to the executable and does not have confli
 Powershell curl is actually an alias for *Invoke-WebRequest* meaning you would have to change the command to what the *Invoke-WebRequest* expects. 
 
 So instead of <br>
-`curl.exe -o "C:\tmp\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"`, <br>
+`curl -o "C:\tmp\winget_cli_install.msixbundle" "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"`, <br>
 your command would be <br>
 `Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "C:\tmp\winget_cli_installer.msixbundle"`
 
